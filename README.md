@@ -1,4 +1,4 @@
-**Google Datastore ORM**
+**.Net Google Datastore ORM**
 
 A mini-ORM layer, with the Repository pattern, on top of the Google Datastore db.
 Supports async/await.
