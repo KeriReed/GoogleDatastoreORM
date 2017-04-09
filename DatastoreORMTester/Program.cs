@@ -14,7 +14,7 @@ namespace DatastoreORMTester
             // Use this for local running
             //Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", @"DB.json");
 
-            var ormTester = new ORMTester("nogamedev-161309");
+            var ormTester = new ORMTester("projectid");
             var countryCode = ormTester.AddCountry().Result;
             var country = ormTester.GetCountry(countryCode).Result;
             Console.WriteLine("Country: Code: {0}, Name: {1}", country.CountryCode, country.Name );
