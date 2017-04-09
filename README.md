@@ -1,4 +1,4 @@
-Google Datastore ORM
+**Google Datastore ORM**
 
 A mini-ORM layer, with the Repository pattern, on top of the Google Datastore db.
 Supports async/await.
@@ -9,7 +9,7 @@ In order to use it, you should do the following:
 3) Use the base CRUD operations (Create - Insert, Read - GetById , Update, Delete) or use the Query by property name.
 
 See the DatastoreORMTester project as an example.
-
+```
 [Kind("Country")]
 public class CountryDAO: BaseDAO
 {
@@ -30,3 +30,4 @@ await _countryRepository.InsertAsync(new CountryDAO
     CountryCode = "IL",
     Name = "Israel"
 });
+```
